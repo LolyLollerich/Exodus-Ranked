@@ -474,7 +474,7 @@ const visiblePlayers = sortedPlayers.filter((player) =>
 
         </div>
         <p className="mt-3 text-xs text-gray-600">
-          Demo data. Official rankings will be connected to the database later.
+          Rankings can be changed at any time based on based on player performance and tournament results.
         </p>
       </section>
 

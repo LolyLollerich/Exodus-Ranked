@@ -4,6 +4,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
+import MinecraftHead from "@/app/components/MinecraftHead";
 
 type Player = {
   id: string;
@@ -89,11 +90,7 @@ export default function PlayersPage() {
                 href={`/players/${encodeURIComponent(player.username)}`}
                 className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-[#110e1c] p-5 transition hover:border-purple-500/50 hover:bg-purple-500/5"
               >
-                <img
-                  src={`https://minotar.net/helm/${encodeURIComponent(player.username)}/64.png`}
-                  alt=""
-                  className="h-14 w-14 rounded-xl bg-purple-500/10"
-                />
+                <MinecraftHead username={player.username} />
 
                 <div>
                   <div className="font-black transition group-hover:text-purple-400">

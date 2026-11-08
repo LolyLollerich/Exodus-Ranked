@@ -288,7 +288,7 @@ export default function DatenschutzPage() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-gray-600">
-          © {new Date().getFullYear()} EXODUS RANKED. All rights reserved.
+          © 2026 EXODUS RANKED. All rights reserved.
         </div>
       </div>
     </main>

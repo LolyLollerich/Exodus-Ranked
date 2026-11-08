@@ -550,9 +550,9 @@ const visiblePlayers = sortedPlayers.filter((player) =>
           </div>
           <div className="text-xs text-gray-500">© 2026 EXODUS RANKED</div>
         </div>
-       <a href="/datenschutz" className="rounded-xl border border-white/10 bg-white/5 px-7 py-4 font-bold transition hover:bg-white/10">
-                Latest News
-              </a>
+       <Link href="/datenschutz" className="rounded-xl border border-white/10 bg-white/5 px-7 py-4 font-bold transition hover:bg-white/10">
+                Datenschutz
+              </Link>
       </footer>
     </main>
   );
